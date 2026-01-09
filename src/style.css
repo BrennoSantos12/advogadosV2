@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dawning+of+a+New+Day&family=Great+Vibes&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-crazy: "Dawning of a New Day", cursive;
+  --font-vibes: "Great Vibes", cursive;
+  --font-bebas: "Bebas Neue", sans-serif;
+}
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+}
